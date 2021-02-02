@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="100.5dp"
+        android:layout_marginLeft="100.5dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="100.5dp"
+        android:layout_marginRight="100.5dp"
+        android:text="Main Menu"
+        android:textSize="38dp"
+        android:textStyle="bold" />
+
+    <ToggleButton
+        android:id="@+id/togglebtn"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="161.5dp"
+        android:layout_marginLeft="161.5dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="161.5dp"
+        android:layout_marginRight="161.5dp">
+
+    </ToggleButton>
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="167dp"
+        android:layout_marginLeft="167dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginRight="156dp"></TextView>
+
+    <Button
+        android:id="@+id/configledbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="125.5dp"
+        android:layout_marginLeft="125.5dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="125.5dp"
+        android:layout_marginRight="125.5dp"
+        android:text="Configure LEDs" />
+
+    <Button
+        android:id="@+id/BTPairbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="95.5dp"
+        android:layout_marginLeft="95.5dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="95.5dp"
+        android:layout_marginRight="95.5dp"
+        android:text="Bluetooth Pairing" />
+
+</RelativeLayout>
